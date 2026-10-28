@@ -41,7 +41,7 @@ DiffView bridges the gap between raw document diffing and visual QA by analyzing
 - 📝 **Differences Breakdown & Written Analysis**: A dedicated analytical component that breaks down and writes out all textual revisions and visual changes side-by-side with original vs. revised text snippets, thumbnail crops, and animated spotlights.
 - ⚡ **Optimized for Engineering Schematics & CAD**: Features a 2D uniform spatial grid indexing engine in `diff_engine.py` that accelerates vector path comparisons on dense schematics (e.g. 9,200+ vector paths) from over 13 minutes down to under 3.5 seconds.
 - 📑 **Full Multi-Page PDF Support**: Seamlessly render, cache, and navigate through multi-page PDFs using high-speed PyMuPDF rasterization.
-- 🖼️ **Cross-Format Flexibility**: Compare `PDF`, ``, `JPG`, `JPEG`, `WebP`, `BMP`, `GIF`, and `TIFF` files interchangeably (e.g. PDF vs. PDF, Image vs. Image, or PDF vs. Image).
+- 🖼️ **Cross-Format Flexibility**: Compare ``, ``, `JPG`, `JPEG`, `WebP`, `BMP`, `GIF`, and `TIFF` files interchangeably (e.g. PDF vs. PDF, Image vs. Image, or PDF vs. Image).
 - 🎛️ **4 Intuitive Comparison Modes**:
   1. **Side-by-Side**: Synchronized scrolling dual panes displaying Document A (with red bounding boxes) and Document B (with green bounding boxes).
   2. **Pixel Diff (Heatmap & 3-Color)**: High-contrast red heatmap overlay or 3-color breakdown (*Red = Removed, Green = Added, Amber = Modified*).
